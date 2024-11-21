@@ -1,0 +1,2 @@
+# Efficient-Algorithmic-Exploration-of-Connected-Galactic-Colonies-on-Circular-Maps
+An algorithmic exploration engine for connected galactic colonies using circular maps. Implements Depth-First Search  and Breadth-First Search to identify and analyze top-k largest colonies by resource type. Highlights efficient graph traversal, colony detection, and resource mapping, showcasing algorithm design and spatial data analysis.
