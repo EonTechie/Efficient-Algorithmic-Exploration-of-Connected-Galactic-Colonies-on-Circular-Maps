@@ -1,0 +1,198 @@
+==3427== Memcheck, a memory error detector
+==3427== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3427== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3427== Command: ./main 1 5 map4.txt
+==3427== 
+Time taken: 74258705 nanoseconds
+Algorithm: DFS
+Map: map4.txt
+Colony 1: Size = 15, Resource Type = 5
+Colony 2: Size = 13, Resource Type = 3
+Colony 3: Size = 9, Resource Type = 2
+Colony 4: Size = 9, Resource Type = 5
+Colony 5: Size = 9, Resource Type = 5
+==3427== 
+==3427== HEAP SUMMARY:
+==3427==     in use at exit: 0 bytes in 0 blocks
+==3427==   total heap usage: 826 allocs, 826 frees, 187,540 bytes allocated
+==3427== 
+==3427== All heap blocks were freed -- no leaks are possible
+==3427== 
+==3427== For counts of detected and suppressed errors, rerun with: -v
+==3427== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3479== Memcheck, a memory error detector
+==3479== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3479== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3479== Command: ./main 0 5 map4.txt
+==3479== 
+Time taken: 83504921 nanoseconds
+Algorithm: BFS
+Map: map4.txt
+Colony 1: Size = 15, Resource Type = 5
+Colony 2: Size = 13, Resource Type = 3
+Colony 3: Size = 9, Resource Type = 2
+Colony 4: Size = 9, Resource Type = 5
+Colony 5: Size = 9, Resource Type = 5
+==3479== 
+==3479== HEAP SUMMARY:
+==3479==     in use at exit: 0 bytes in 0 blocks
+==3479==   total heap usage: 826 allocs, 826 frees, 187,540 bytes allocated
+==3479== 
+==3479== All heap blocks were freed -- no leaks are possible
+==3479== 
+==3479== For counts of detected and suppressed errors, rerun with: -v
+==3479== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3518== Memcheck, a memory error detector
+==3518== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3518== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3518== Command: ./main 0 5 map1.txt
+==3518== 
+Time taken: 63459470 nanoseconds
+Algorithm: BFS
+Map: map1.txt
+Colony 1: Size = 9, Resource Type = 5
+Colony 2: Size = 7, Resource Type = 1
+Colony 3: Size = 4, Resource Type = 2
+Colony 4: Size = 4, Resource Type = 3
+Colony 5: Size = 4, Resource Type = 4
+==3518== 
+==3518== HEAP SUMMARY:
+==3518==     in use at exit: 0 bytes in 0 blocks
+==3518==   total heap usage: 167 allocs, 167 frees, 103,056 bytes allocated
+==3518== 
+==3518== All heap blocks were freed -- no leaks are possible
+==3518== 
+==3518== For counts of detected and suppressed errors, rerun with: -v
+==3518== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3582== Memcheck, a memory error detector
+==3582== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3582== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3582== Command: ./main 1 5 map1.txt
+==3582== 
+Time taken: 62040005 nanoseconds
+Algorithm: DFS
+Map: map1.txt
+Colony 1: Size = 9, Resource Type = 5
+Colony 2: Size = 7, Resource Type = 1
+Colony 3: Size = 4, Resource Type = 2
+Colony 4: Size = 4, Resource Type = 3
+Colony 5: Size = 4, Resource Type = 4
+==3582== 
+==3582== HEAP SUMMARY:
+==3582==     in use at exit: 0 bytes in 0 blocks
+==3582==   total heap usage: 167 allocs, 167 frees, 103,056 bytes allocated
+==3582== 
+==3582== All heap blocks were freed -- no leaks are possible
+==3582== 
+==3582== For counts of detected and suppressed errors, rerun with: -v
+==3582== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3641== Memcheck, a memory error detector
+==3641== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3641== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3641== Command: ./main 1 5 map2.txt
+==3641== 
+Time taken: 57290982 nanoseconds
+Algorithm: DFS
+Map: map2.txt
+Colony 1: Size = 6, Resource Type = 2
+Colony 2: Size = 4, Resource Type = 1
+==3641== 
+==3641== HEAP SUMMARY:
+==3641==     in use at exit: 0 bytes in 0 blocks
+==3641==   total heap usage: 33 allocs, 33 frees, 87,288 bytes allocated
+==3641== 
+==3641== All heap blocks were freed -- no leaks are possible
+==3641== 
+==3641== For counts of detected and suppressed errors, rerun with: -v
+==3641== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3661== Memcheck, a memory error detector
+==3661== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3661== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3661== Command: ./main 1 0 map2.txt
+==3661== 
+Time taken: 49548651 nanoseconds
+Algorithm: DFS
+Map: map2.txt
+No colonies found.
+==3661== 
+==3661== HEAP SUMMARY:
+==3661==     in use at exit: 0 bytes in 0 blocks
+==3661==   total heap usage: 32 allocs, 32 frees, 87,272 bytes allocated
+==3661== 
+==3661== All heap blocks were freed -- no leaks are possible
+==3661== 
+==3661== For counts of detected and suppressed errors, rerun with: -v
+==3661== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3729== Memcheck, a memory error detector
+==3729== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3729== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3729== Command: ./main 1 5 map3.txt
+==3729== 
+Time taken: 46112826 nanoseconds
+Algorithm: DFS
+Map: map3.txt
+Colony 1: Size = 1, Resource Type = 1
+Colony 2: Size = 1, Resource Type = 2
+==3729== 
+==3729== HEAP SUMMARY:
+==3729==     in use at exit: 0 bytes in 0 blocks
+==3729==   total heap usage: 17 allocs, 17 frees, 86,844 bytes allocated
+==3729== 
+==3729== All heap blocks were freed -- no leaks are possible
+==3729== 
+==3729== For counts of detected and suppressed errors, rerun with: -v
+==3729== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3749== Memcheck, a memory error detector
+==3749== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3749== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3749== Command: ./main 0 5 map3.txt
+==3749== 
+Time taken: 41726331 nanoseconds
+Algorithm: BFS
+Map: map3.txt
+Colony 1: Size = 1, Resource Type = 1
+Colony 2: Size = 1, Resource Type = 2
+==3749== 
+==3749== HEAP SUMMARY:
+==3749==     in use at exit: 0 bytes in 0 blocks
+==3749==   total heap usage: 17 allocs, 17 frees, 86,844 bytes allocated
+==3749== 
+==3749== All heap blocks were freed -- no leaks are possible
+==3749== 
+==3749== For counts of detected and suppressed errors, rerun with: -v
+==3749== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==3826== Memcheck, a memory error detector
+==3826== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3826== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3826== Command: ./main 0 5 map5.txt
+==3826== 
+Algorithm: BFS
+Map: map5.txt
+No colonies found.
+==3826== 
+==3826== HEAP SUMMARY:
+==3826==     in use at exit: 0 bytes in 0 blocks
+==3826==   total heap usage: 4 allocs, 4 frees, 85,544 bytes allocated
+==3826== 
+==3826== All heap blocks were freed -- no leaks are possible
+==3826== 
+==3826== For counts of detected and suppressed errors, rerun with: -v
+==3826== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+valgrind: ./man: No such file or directory
+==4044== Memcheck, a memory error detector
+==4044== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4044== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4044== Command: ./main 0 5 map5.txt
+==4044== 
+Algorithm: BFS
+Map: map5.txt
+No colonies found.
+==4044== 
+==4044== HEAP SUMMARY:
+==4044==     in use at exit: 0 bytes in 0 blocks
+==4044==   total heap usage: 4 allocs, 4 frees, 85,544 bytes allocated
+==4044== 
+==4044== All heap blocks were freed -- no leaks are possible
+==4044== 
+==4044== For counts of detected and suppressed errors, rerun with: -v
+==4044== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
