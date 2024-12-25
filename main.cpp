@@ -3,10 +3,6 @@
  * Repository: https://github.com/EonTechie
  */
 
-/* * * * * * * * * * * * * * * * * *
- * DO NOT MODIFY UNLESS REQUESTED  *
-* * * * * * * * * * * * * * * * * */
-
 #include <iostream>         
 #include <vector>
 #include <fstream>
